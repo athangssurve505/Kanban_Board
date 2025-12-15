@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Chillax;
+    src: url(./Fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+  min-height: 100vh;
+    width: 100%;
+    font-family: Chillax;
+    color: white;
+    background-color: rgb(11, 11, 11);
+}
+
+body{
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    /* background-color: #FF0033; */
+    gap: 1rem;
+}
+
+nav{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+
+nav button{
+    padding: 0.5rem 1rem;
+    background-color: #FF0033;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0.8rem 1rem;
+    border: 2px solid wheat;
+    
+}
+
+section div{
+    background-color: burlywood;
+}
