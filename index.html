@@ -9,13 +9,45 @@
 <body>
     <nav>
         <h1>Kanban Board</h1>
-        <button>Add Task</button>
+        <button id="new-task-opener" class="btn">Add New Task</button>
     </nav>
     
         <section>
-            <div class="to-do">To -Do</div>
-            <div class="in-progress">In Progress</div>
-            <div class="done"> Done</div>
+
+            <div class="new-task-adder-window">
+                <button class="close btn">X</button>
+                <div class="wrapper-new-task">
+                    
+                <h1>New Task</h1>
+                <input type="text" name="title" id="title" placeholder="Enter title here...">
+                <textarea name="content" id="content" rows="5" cols="40" placeholder="Enter content here..."></textarea>
+                <button class="btn" id="new-task-creator" disabled>Create Task</button>
+
+                </div>
+            </div>
+            <div class="to-do cols">
+                <div  class="wrapper">
+                <p>To-Do</p> <p>1</p></div>
+                <div class="bottom  ">
+
+                </div>
+                </div>
+            <div class="in-progres cols">
+                <div class="wrapper">
+                    <p>In-Progress</p> <p>1</p>
+                </div>
+                <div class="bottom ">
+
+                </div>
+            </div>
+            <div class="do cols">
+                <div class="wrapper">
+                    <p>Done</p> <p>1</p>
+                </div> 
+                <div class="bottom">
+                    asd
+                </div>
+            </div>
 
         </section>
 
@@ -23,4 +55,5 @@
 
 
 </body>
+<script src="script.js"></script>
 </html>
